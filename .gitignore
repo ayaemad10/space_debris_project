@@ -1,0 +1,11 @@
+@"
+venv/
+venv311/
+venv_py311/
+__pycache__/
+*.pyc
+.env
+.DS_Store
+.streamlit/secrets.toml
+"@ | Out-File -Encoding utf8 .gitignorerow_data/
+row_data/
