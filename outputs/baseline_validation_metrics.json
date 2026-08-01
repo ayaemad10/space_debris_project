@@ -1,0 +1,8 @@
+{
+  "Accuracy": 0.991,
+  "F1-Score": 0.9529,
+  "ROC-AUC": 0.9994,
+  "n_train": 4000,
+  "n_test": 1000,
+  "positive_rate_test": 0.096
+}
