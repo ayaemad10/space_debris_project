@@ -1,0 +1,6 @@
+feature,reason,corr_with_risk,action
+max_risk_estimate,event-level aggregate of the risk trajectory (documented Kelvins target-derived field); leaks future/eventual risk,0.2237861031782533,DROP
+max_risk_scaling,event-level aggregate of the risk trajectory (documented Kelvins target-derived field); leaks future/eventual risk,-0.06295402655985378,DROP
+time_to_tca,high raw correlation with risk (|r|>0.5); reviewed manually,0.5180960086746605,REVIEW
+event_id,"identifier field, not a physical predictor; used only for grouping/splitting, never as a model feature",,EXCLUDE_AS_FEATURE (keep for grouping)
+mission_id,"identifier field, not a physical predictor; used only for grouping/splitting, never as a model feature",,EXCLUDE_AS_FEATURE (keep for grouping)
